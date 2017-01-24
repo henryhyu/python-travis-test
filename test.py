@@ -1,4 +1,5 @@
 import square
+import sys
 
 def checkSquareNum():
     if(square.squareNum(1) == 4):
@@ -8,4 +9,6 @@ def checkSquareNum():
         print "false"
         return False
 
-checkSquareNum()
+if (checkSquareNum() == False):
+    sys.exit(1)
+
