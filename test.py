@@ -2,7 +2,7 @@ import square
 import sys
 
 def checkSquareNum():
-    if(square.squareNum(1) == 4):
+    if(square.squareNum(2) == 4):
         print "true"
         return True
     else:
@@ -11,4 +11,6 @@ def checkSquareNum():
 
 if (checkSquareNum() == False):
     sys.exit(1)
+else:
+    sys.exit(0)
 
